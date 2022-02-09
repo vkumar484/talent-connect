@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  
+  
+  <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Talent Connect</title>
+ 
+     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+     <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+      
+      <link type="text/css" rel="stylesheet" href="css/main.css" />
+      
+      <style>
+        .owl-dots
+          {
+              display: none;
+          }
+          
+           .video-clips-header-container
+      {
+         display: flex;
+         justify-content: space-between; 
+      }
+      .see-all-button
+      {
+              margin-top: 13px;
+             margin-right: 13px;
+      }
+          .prev-btn
+          {
+            position: absolute;
+            top: 40%;
+            left: 13%;
+            z-index: 999;  
+          }
+          
+          .next-btn
+          {
+              right: 13%;
+              position: absolute;
+              top: 40%;
+              z-index: 999;
+          }
+           .prev-btn-1
+          {
+            position: absolute;
+             top: 85%;
+            left: 13%;
+            z-index: 999;  
+          }
+          
+          .next-btn-1
+          {
+              right: 13%;
+              position: absolute;
+              top: 85%;
+              z-index: 999;
+          }
+          
+           .prev-btn-2
+          {
+            position: absolute;
+             top: 135%;
+            left: 13%;
+            z-index: 999;  
+          }
+          
+          .next-btn-2
+          {
+              right: 13%;
+              position: absolute;
+              top: 135%;
+              z-index: 999;
+          }
+      .card .card-content p {
+         margin: 8px;
+        color: inherit;
+         }
+    </style>
+</head>
+
+<body>
+<!--TOP HEADER-->
+
+<!--HEADER WITH LIST ITEMS---->
+<header class="home-header-with-items">
+  <nav class="transparent z-depth-0">
+    <div class="container">
+      <div class="nav-wrapper">
+        <a href="home.html" class="brand-logo">Talent Connect</a>
+        <a href="#" data-activates="mobile-nav" class="button-collapse">
+          <i class="material-icons">menu</i>
+        </a>
+        <!--right menu items-->
+        <ul class="right hide-on-med-and-down ">
+          <li><a class="active-link" href="recentfeed.html"><i class="fa fa-newspaper menu-icons"></i>Recent Feed</a></li>
+          <li><a href="home.html"><i class="fa fa-user-circle menu-icons"></i>Showcase</a></li>
+          <li><a href="clips.html"><i class="fa fa-th-large menu-icons"></i>Clips</a></li>
+          <li><a href="artist_hunt.html"><i class="fa fa-search-plus menu-icons"></i>Artist Hunts</a></li>
+          <li><a href="login.html"><i class="fa fa-cart-plus menu-icons"></i>Login</a></li>
+          <li><a href="signup.html"><i class="fa fa-users menu-icons"></i>Signup</a></li>
+        </ul>
+        <!--end of menu items-->
+        <!--SIDE NAVBAR-->
+        <ul class="side-nav" id="mobile-nav">
+          <h4 class="purple-text text-darken-4 center">Talent_Connect</h4>
+          <li>
+            <div class="divider"></div>
+          </li>
+          <li><a href="index.html"><i class="fa fa-home grey-text text-darken-4 "></i>Home</a></li>
+          <li><a href="signup.html"><i class="fa fa-users grey-text text-darken-4 "></i>Sign Up</a></li>
+
+          <li>
+            <div class="divider"></div>
+          </li>
+
+          <li><a href="#" class="btn purple">Login</a></li>
+
+        </ul>
+        <!--end of SIDE NAV BAR-->
+      </div>
+    </div>
+  </nav>
+
+</header>
+  
+ <section class="section section-talent-clips">
+     <div class="container">
+         <!--slider-controls-->
+         <div class="sliderControl">
+            <div class="owl-controls">
+              <div class="owl-nav">
+                <div class="prev-btn"><i class="material-icons btn-floating small white blue-text waves-effect waves-blue-light">keyboard_arrow_left</i></div>
+                <div class="next-btn"><i class="material-icons btn-floating small white blue-text waves-effect waves-blue-light">keyboard_arrow_right</i></div>
+              </div>
+    
+            </div>
+         </div>
+         <div class="row">
+                 <div class="video-clips-header-container">
+                      <div class="left-title-box">
+                         <p class=" chip green white-text left-align chip">Talent Clips</p> 
+                      </div>
+                       <a href="#" class="chip pink white-text see-all-button">See All</a>
+                 </div>  
+                    
+         </div>
+         <!--1st slider-->
+            <div class=" slider-1 owl-carousel slider-wrapper owl-theme grey lighten-4" style="padding: 12px;margin-top: -18px;">
+    <div class="item white">
+                       <div class="card">
+                               <div class="card-image">
+                                <img src="https://source.unsplash.com/1600x1100/?love">
+                               </div>   
+                           <div class="card-content no-padding ratings-title">
+                               <div class="row" style="padding: 10px;">
+                                 <div class="col s12 m7  no-padding"  >
+                                    <p class=" grey-text text-darken-4">
+                                    <a href="#" class="grey-text text-darken-4" >Vinod Kumar</a>
+                                    </p>
+                                 </div>
+                                <div class="col 12 m5 no-padding "> 
+                                    <div class="chip green white-text">3.8 <i class="material-icons white-text  tiny">star</i></div>
+                                  </div>
+                                 </div>
+                              </div><!--card-content-->
+                            </div> 
+    </div><!--item1-->
+    <div class="item">
+         <div class="card">
+                               <div class="card-image">
+                                <img src="https://source.unsplash.com/1600x1100/?cycle">
+                               </div>   
+                           <div class="card-content no-padding ratings-title">
+                               <div class="row" style="padding: 10px;">
+                                 <div class="col s12 m7  no-padding"  >
+                                    <p class=" grey-text text-darken-4">
+                                    <a href="#" class="grey-text text-darken-4" >Vinod Kumar</a>
+                                    </p>
+                                 </div>
+                                <div class="col 12 m5 no-padding "> 
+                                    <div class="chip green white-text">3.8 <i class="material-icons white-text  tiny">star</i></div>
+                                  </div>
+                                 </div>
+                              </div><!--card-content-->
+                            </div> 
+        
+    </div><!--item2-->
+    <div class="item">
+         <div class="card">
+                               <div class="card-image">
+                                <img src="https://source.unsplash.com/1600x1100/?car">
+                               </div>   
+                           <div class="card-content no-padding ratings-title">
+                               <div class="row" style="padding: 10px;">
+                                 <div class="col s12 m7  no-padding"  >
+                                    <p class=" grey-text text-darken-4">
+                                    <a href="#" class="grey-text text-darken-4" >Vinod Kumar</a>
+                                    </p>
+                                 </div>
+                                <div class="col 12 m5 no-padding "> 
+                                    <div class="chip green white-text">3.8 <i class="material-icons white-text  tiny">star</i></div>
+                                  </div>
+                                 </div>
+                              </div><!--card-content-->
+                            </div> 
+        
+    </div><!--item3-->
+   <div class="item">
+         <div class="card">
+                               <div class="card-image">
+                                <img src="https://source.unsplash.com/1600x1100/?romance">
+                               </div>   
+                           <div class="card-content no-padding ratings-title">
+                               <div class="row" style="padding: 10px;">
+                                 <div class="col s12 m7  no-padding"  >
+                                    <p class=" grey-text text-darken-4">
+                                    <a href="#" class="grey-text text-darken-4" >Vinod Kumar</a>
+                                    </p>
+                                 </div>
+                                <div class="col 12 m5 no-padding "> 
+                                    <div class="chip green white-text">3.8 <i class="material-icons white-text  tiny">star</i></div>
+                                  </div>
+                                 </div>
+                              </div><!--card-content-->
+                            </div> 
+        
+    </div><!--item4-->
+   <div class="item">
+         <div class="card">
+                               <div class="card-image">
+                                <img src="https://source.unsplash.com/1600x1100/?waterfalls">
+                               </div>   
+                           <div class="card-content no-padding ratings-title">
+                               <div class="row" style="padding: 10px;">
+                                 <div class="col s12 m7  no-padding"  >
+                                    <p class=" grey-text text-darken-4">
+                                    <a href="#" class="grey-text text-darken-4" >Vinod Kumar</a>
+                                    </p>
+                                 </div>
+                                <div class="col 12 m5 no-padding "> 
+                                    <div class="chip green white-text">3.8 <i class="material-icons white-text  tiny">star</i></div>
+                                  </div>
+                                 </div>
+                              </div><!--card-content-->
+                            </div> 
+        
+    </div><!--item5-->
+    <div class="item">
+         <div class="card">
+                               <div class="card-image">
+                                <img src="https://source.unsplash.com/1600x1100/?beach">
+                               </div>   
+                           <div class="card-content no-padding ratings-title">
+                               <div class="row" style="padding: 10px;">
+                                 <div class="col s12 m7  no-padding"  >
+                                    <p class=" grey-text text-darken-4">
+                                    <a href="#" class="grey-text text-darken-4" >Vinod Kumar</a>
+                                    </p>
+                                 </div>
+                                <div class="col 12 m5 no-padding "> 
+                                    <div class="chip green white-text">3.8 <i class="material-icons white-text  tiny">star</i></div>
+                                  </div>
+                                 </div>
+                              </div><!--card-content-->
+                            </div> 
+        
+    </div><!--item6-->
+    <div class="item">
+         <div class="card">
+                               <div class="card-image">
+                                <img src="https://source.unsplash.com/1600x1100/?sand">
+                               </div>   
+                           <div class="card-content no-padding ratings-title">
+                               <div class="row" style="padding: 10px;">
+                                 <div class="col s12 m7  no-padding"  >
+                                    <p class=" grey-text text-darken-4">
+                                    <a href="#" class="grey-text text-darken-4" >Vinod Kumar</a>
+                                    </p>
+                                 </div>
+                                <div class="col 12 m5 no-padding "> 
+                                    <div class="chip green white-text">3.8 <i class="material-icons white-text  tiny">star</i></div>
+                                  </div>
+                                 </div>
+                              </div><!--card-content-->
+                            </div> 
+        
+    </div><!--item7-->
+    <div class="item">
+         <div class="card">
+                               <div class="card-image">
+                                <img src="https://source.unsplash.com/1600x1100/?snow">
+                               </div>   
+                           <div class="card-content no-padding ratings-title">
+                               <div class="row" style="padding: 10px;">
+                                 <div class="col s12 m7  no-padding"  >
+                                    <p class=" grey-text text-darken-4">
+                                    <a href="#" class="grey-text text-darken-4" >Vinod Kumar</a>
+                                    </p>
+                                 </div>
+                                <div class="col 12 m5 no-padding "> 
+                                    <div class="chip green white-text">3.8 <i class="material-icons white-text  tiny">star</i></div>
+                                  </div>
+                                 </div>
+                              </div><!--card-content-->
+                            </div> 
+        
+    </div><!--item8-->
+    
+</div>
+         
+     </div>
+ </section>
+        
+       
+     <div class="container">
+         <!--slider-controls-->
+         <div class="sliderControl">
+            <div class="owl-controls">
+              <div class="owl-nav">
+                <div class="prev-btn-1"><i class="material-icons btn-floating small white blue-text waves-effect waves-blue-light">keyboard_arrow_left</i></div>
+                <div class="next-btn-1"><i class="material-icons btn-floating small white blue-text waves-effect waves-blue-light">keyboard_arrow_right</i></div>
+              </div>
+    
+            </div>
+         </div>
+         <div class="row">
+                 <div class="video-clips-header-container">
+                      <div class="left-title-box">
+                         <p class=" chip green white-text left-align chip">Contests</p> 
+                      </div>
+                       <a href="#" class="chip pink white-text see-all-button">See All</a>
+                 </div>  
+                    
+         </div>
+         <!--1st slider-->
+            <div class=" slider-2 owl-carousel slider-wrapper-1 owl-theme grey lighten-4" style="padding: 12px;margin-top: -18px;">
+    <div class="item white">
+                       <div class="card">
+                               <div class="card-image">
+                                <img src="https://source.unsplash.com/1600x1100/?romance">
+                               </div>   
+                           <div class="card-content no-padding ratings-title">
+                               <div class="row" style="padding: 10px;">
+                                 <div class="col s12 m7  no-padding"  >
+                                    <p class=" grey-text text-darken-4">
+                                    <a href="#" class="grey-text text-darken-4" >Vinod Kumar</a>
+                                    </p>
+                                 </div>
+                                <div class="col 12 m5 no-padding "> 
+                                    <div class="chip green white-text">3.8 <i class="material-icons white-text  tiny">star</i></div>
+                                  </div>
+                                 </div>
+                              </div><!--card-content-->
+                            </div> 
+    </div><!--item1-->
+    <div class="item">
+         <div class="card">
+                               <div class="card-image">
+                                <img src="https://source.unsplash.com/1600x1100/?cycle">
+                               </div>   
+                           <div class="card-content no-padding ratings-title">
+                               <div class="row" style="padding: 10px;">
+                                 <div class="col s12 m7  no-padding"  >
+                                    <p class=" grey-text text-darken-4">
+                                    <a href="#" class="grey-text text-darken-4" >Vinod Kumar</a>
+                                    </p>
+                                 </div>
+                                <div class="col 12 m5 no-padding "> 
+                                    <div class="chip green white-text">3.8 <i class="material-icons white-text  tiny">star</i></div>
+                                  </div>
+                                 </div>
+                              </div><!--card-content-->
+                            </div> 
+        
+    </div><!--item2-->
+    <div class="item">
+         <div class="card">
+                               <div class="card-image">
+                                <img src="https://source.unsplash.com/1600x1100/?beer">
+                               </div>   
+                           <div class="card-content no-padding ratings-title">
+                               <div class="row" style="padding: 10px;">
+                                 <div class="col s12 m7  no-padding"  >
+                                    <p class=" grey-text text-darken-4">
+                                    <a href="#" class="grey-text text-darken-4" >Vinod Kumar</a>
+                                    </p>
+                                 </div>
+                                <div class="col 12 m5 no-padding "> 
+                                    <div class="chip green white-text">3.8 <i class="material-icons white-text  tiny">star</i></div>
+                                  </div>
+                                 </div>
+                              </div><!--card-content-->
+                            </div> 
+        
+    </div><!--item3-->
+   <div class="item">
+         <div class="card">
+                               <div class="card-image">
+                                <img src="https://source.unsplash.com/1600x1100/?fruits">
+                               </div>   
+                           <div class="card-content no-padding ratings-title">
+                               <div class="row" style="padding: 10px;">
+                                 <div class="col s12 m7  no-padding"  >
+                                    <p class=" grey-text text-darken-4">
+                                    <a href="#" class="grey-text text-darken-4" >Vinod Kumar</a>
+                                    </p>
+                                 </div>
+                                <div class="col 12 m5 no-padding "> 
+                                    <div class="chip green white-text">3.8 <i class="material-icons white-text  tiny">star</i></div>
+                                  </div>
+                                 </div>
+                              </div><!--card-content-->
+                            </div> 
+        
+    </div><!--item4-->
+   <div class="item">
+         <div class="card">
+                               <div class="card-image">
+                                <img src="https://source.unsplash.com/1600x1100/?ship">
+                               </div>   
+                           <div class="card-content no-padding ratings-title">
+                               <div class="row" style="padding: 10px;">
+                                 <div class="col s12 m7  no-padding"  >
+                                    <p class=" grey-text text-darken-4">
+                                    <a href="#" class="grey-text text-darken-4" >Vinod Kumar</a>
+                                    </p>
+                                 </div>
+                                <div class="col 12 m5 no-padding "> 
+                                    <div class="chip green white-text">3.8 <i class="material-icons white-text  tiny">star</i></div>
+                                  </div>
+                                 </div>
+                              </div><!--card-content-->
+                            </div> 
+        
+    </div><!--item5-->
+    <div class="item">
+         <div class="card">
+                               <div class="card-image">
+                                <img src="https://source.unsplash.com/1600x1100/?hotel">
+                               </div>   
+                           <div class="card-content no-padding ratings-title">
+                               <div class="row" style="padding: 10px;">
+                                 <div class="col s12 m7  no-padding"  >
+                                    <p class=" grey-text text-darken-4">
+                                    <a href="#" class="grey-text text-darken-4" >Vinod Kumar</a>
+                                    </p>
+                                 </div>
+                                <div class="col 12 m5 no-padding "> 
+                                    <div class="chip green white-text">3.8 <i class="material-icons white-text  tiny">star</i></div>
+                                  </div>
+                                 </div>
+                              </div><!--card-content-->
+                            </div> 
+        
+    </div><!--item6-->
+    <div class="item">
+         <div class="card">
+                               <div class="card-image">
+                                <img src="https://source.unsplash.com/1600x1100/?love">
+                               </div>   
+                           <div class="card-content no-padding ratings-title">
+                               <div class="row" style="padding: 10px;">
+                                 <div class="col s12 m7  no-padding"  >
+                                    <p class=" grey-text text-darken-4">
+                                    <a href="#" class="grey-text text-darken-4" >Vinod Kumar</a>
+                                    </p>
+                                 </div>
+                                <div class="col 12 m5 no-padding "> 
+                                    <div class="chip green white-text">3.8 <i class="material-icons white-text  tiny">star</i></div>
+                                  </div>
+                                 </div>
+                              </div><!--card-content-->
+                            </div> 
+        
+    </div><!--item7-->
+    <div class="item">
+         <div class="card">
+                               <div class="card-image">
+                                <img src="https://source.unsplash.com/1600x1100/?car">
+                               </div>   
+                           <div class="card-content no-padding ratings-title">
+                               <div class="row" style="padding: 10px;">
+                                 <div class="col s12 m7  no-padding"  >
+                                    <p class=" grey-text text-darken-4">
+                                    <a href="#" class="grey-text text-darken-4" >Vinod Kumar</a>
+                                    </p>
+                                 </div>
+                                <div class="col 12 m5 no-padding "> 
+                                    <div class="chip green white-text">3.8 <i class="material-icons white-text  tiny">star</i></div>
+                                  </div>
+                                 </div>
+                              </div><!--card-content-->
+                            </div> 
+        
+    </div><!--item8-->
+    
+</div>
+         
+     </div>
+ 
+        <!--3rd row-->
+         <div class="container">
+         <!--slider-controls-->
+         <div class="sliderControl">
+            <div class="owl-controls">
+              <div class="owl-nav">
+                <div class="prev-btn-2"><i class="material-icons btn-floating small white blue-text waves-effect waves-blue-light">keyboard_arrow_left</i></div>
+                <div class="next-btn-2"><i class="material-icons btn-floating small white blue-text waves-effect waves-blue-light">keyboard_arrow_right</i></div>
+              </div>
+    
+            </div>
+         </div>
+         <div class="row">
+                 <div class="video-clips-header-container">
+                      <div class="left-title-box">
+                         <p class=" chip green white-text left-align chip">Artist Hunts</p> 
+                      </div>
+                       <a href="#" class="chip pink white-text see-all-button">See All</a>
+                 </div>  
+                    
+         </div>
+        
+            <div class=" slider-3 owl-carousel slider-wrapper-2 owl-theme grey lighten-4" style="padding: 12px;margin-top: -18px;">
+    <div class="item white">
+                       <div class="card">
+                               <div class="card-image">
+                                <img src="https://source.unsplash.com/1600x1100/?lake">
+                               </div>   
+                           <div class="card-content no-padding ratings-title">
+                               <div class="row" style="padding: 10px;">
+                                 <div class="col s12 m7  no-padding"  >
+                                    <p class=" grey-text text-darken-4">
+                                    <a href="#" class="grey-text text-darken-4" >Vinod Kumar</a>
+                                    </p>
+                                 </div>
+                                <div class="col 12 m5 no-padding "> 
+                                    <div class="chip green white-text">3.8 <i class="material-icons white-text  tiny">star</i></div>
+                                  </div>
+                                 </div>
+                              </div><!--card-content-->
+                            </div> 
+    </div><!--item1-->
+    <div class="item">
+         <div class="card">
+                               <div class="card-image">
+                                <img src="https://source.unsplash.com/1600x1100/?nature">
+                               </div>   
+                           <div class="card-content no-padding ratings-title">
+                               <div class="row" style="padding: 10px;">
+                                 <div class="col s12 m7  no-padding"  >
+                                    <p class=" grey-text text-darken-4">
+                                    <a href="#" class="grey-text text-darken-4" >Vinod Kumar</a>
+                                    </p>
+                                 </div>
+                                <div class="col 12 m5 no-padding "> 
+                                    <div class="chip green white-text">3.8 <i class="material-icons white-text  tiny">star</i></div>
+                                  </div>
+                                 </div>
+                              </div><!--card-content-->
+                            </div> 
+        
+    </div><!--item2-->
+    <div class="item">
+         <div class="card">
+                               <div class="card-image">
+                                <img src="https://source.unsplash.com/1600x1100/?resort">
+                               </div>   
+                           <div class="card-content no-padding ratings-title">
+                               <div class="row" style="padding: 10px;">
+                                 <div class="col s12 m7  no-padding"  >
+                                    <p class=" grey-text text-darken-4">
+                                    <a href="#" class="grey-text text-darken-4" >Vinod Kumar</a>
+                                    </p>
+                                 </div>
+                                <div class="col 12 m5 no-padding "> 
+                                    <div class="chip green white-text">3.8 <i class="material-icons white-text  tiny">star</i></div>
+                                  </div>
+                                 </div>
+                              </div><!--card-content-->
+                            </div> 
+        
+    </div><!--item3-->
+   <div class="item">
+         <div class="card">
+                               <div class="card-image">
+                                <img src="https://source.unsplash.com/1600x1100/?cycle">
+                               </div>   
+                           <div class="card-content no-padding ratings-title">
+                               <div class="row" style="padding: 10px;">
+                                 <div class="col s12 m7  no-padding"  >
+                                    <p class=" grey-text text-darken-4">
+                                    <a href="#" class="grey-text text-darken-4" >Vinod Kumar</a>
+                                    </p>
+                                 </div>
+                                <div class="col 12 m5 no-padding "> 
+                                    <div class="chip green white-text">3.8 <i class="material-icons white-text  tiny">star</i></div>
+                                  </div>
+                                 </div>
+                              </div><!--card-content-->
+                            </div> 
+        
+    </div><!--item4-->
+   <div class="item">
+         <div class="card">
+                               <div class="card-image">
+                                <img src="https://source.unsplash.com/1600x1100/?love">
+                               </div>   
+                           <div class="card-content no-padding ratings-title">
+                               <div class="row" style="padding: 10px;">
+                                 <div class="col s12 m7  no-padding"  >
+                                    <p class=" grey-text text-darken-4">
+                                    <a href="#" class="grey-text text-darken-4" >Vinod Kumar</a>
+                                    </p>
+                                 </div>
+                                <div class="col 12 m5 no-padding "> 
+                                    <div class="chip green white-text">3.8 <i class="material-icons white-text  tiny">star</i></div>
+                                  </div>
+                                 </div>
+                              </div><!--card-content-->
+                            </div> 
+        
+    </div><!--item5-->
+    <div class="item">
+         <div class="card">
+                               <div class="card-image">
+                                <img src="https://source.unsplash.com/1600x1100/?beach">
+                               </div>   
+                           <div class="card-content no-padding ratings-title">
+                               <div class="row" style="padding: 10px;">
+                                 <div class="col s12 m7  no-padding"  >
+                                    <p class=" grey-text text-darken-4">
+                                    <a href="#" class="grey-text text-darken-4" >Vinod Kumar</a>
+                                    </p>
+                                 </div>
+                                <div class="col 12 m5 no-padding "> 
+                                    <div class="chip green white-text">3.8 <i class="material-icons white-text  tiny">star</i></div>
+                                  </div>
+                                 </div>
+                              </div><!--card-content-->
+                            </div> 
+        
+    </div><!--item6-->
+    <div class="item">
+         <div class="card">
+                               <div class="card-image">
+                                <img src="https://source.unsplash.com/1600x1100/?car">
+                               </div>   
+                           <div class="card-content no-padding ratings-title">
+                               <div class="row" style="padding: 10px;">
+                                 <div class="col s12 m7  no-padding"  >
+                                    <p class=" grey-text text-darken-4">
+                                    <a href="#" class="grey-text text-darken-4" >Vinod Kumar</a>
+                                    </p>
+                                 </div>
+                                <div class="col 12 m5 no-padding "> 
+                                    <div class="chip green white-text">3.8 <i class="material-icons white-text  tiny">star</i></div>
+                                  </div>
+                                 </div>
+                              </div><!--card-content-->
+                            </div> 
+        
+    </div><!--item7-->
+    <div class="item">
+         <div class="card">
+                               <div class="card-image">
+                                <img src="https://source.unsplash.com/1600x1100/?bike">
+                               </div>   
+                           <div class="card-content no-padding ratings-title">
+                               <div class="row" style="padding: 10px;">
+                                 <div class="col s12 m7  no-padding"  >
+                                    <p class=" grey-text text-darken-4">
+                                    <a href="#" class="grey-text text-darken-4" >Vinod Kumar</a>
+                                    </p>
+                                 </div>
+                                <div class="col 12 m5 no-padding "> 
+                                    <div class="chip green white-text">3.8 <i class="material-icons white-text  tiny">star</i></div>
+                                  </div>
+                                 </div>
+                              </div><!--card-content-->
+                            </div> 
+        
+    </div><!--item8-->
+    
+</div>
+         
+     </div>
+ 
+    <br><br>
+
+  
+  <!---footer---->
+   <footer class="page-footer light-blue darken-1 lighten-1">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">About Us</h5>
+                <p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo quis, numquam, magni asperiores totam eligendi!</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="index.html">Home</a></li>
+                  <li><a class="grey-text text-lighten-3" href="solutions.html">Solutions</a></li>
+                  <li><a class="grey-text text-lighten-3" href="signup.html">Sign Up</a></li>
+                  
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright light-blue darken-2">
+            <div class="container">
+           Talent_Connect&copy;2018
+            <a class="grey-text text-lighten-4 right" href="#!">Terms & Conditions</a>
+            </div>
+          </div>
+        </footer>
+  <!--end of footer-->
+  
+  
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+    
+ 
+       <script src="js/owl.carousel.min.js"></script>
+    <script src="js/slider.js"></script>
+     
+  <script>
+    $(document).ready(function () {
+      // INIT SideNav
+        $('.button-collapse').sideNav();
+        
+       
+        
+        $('.modal').modal();
+        
+ 
+   
+      
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,190 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+body{
+  font-family: 'Poppins', sans-serif;
+  background: #f3f2ef;
+}
+nav .brand-logo {
+  font-size: 30px;
+  position: absolute;
+  color: #fff;
+  display: inline-block;
+  font-size: 1.5rem;
+  padding: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  margin-left: -16%;
+}
+nav ul a {
+  -webkit-transition: background-color .3s;
+  transition: background-color .3s;
+  font-size: 13px;
+  color: #fff;
+  display: block;
+  padding: 0 15px;
+  cursor: pointer;
+}
+.menu-icons{
+  margin-right: 3px;
+  font-weight: 100;
+  font-size: 10px;
+}
+.collection.with-header .collection-header {
+  background-color: #1976d2;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 3px 15px;
+}
+
+
+.main-header
+{
+    background: #1976d2;
+    background-size: cover;
+    background-position:center;
+    min-height: 450px;
+    color: #fff;
+}
+
+.main-header .showcase
+{
+  padding-top: 100px;
+}
+
+/* showcase**/
+.main-header-inner
+{
+    background: url(../img/background5.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 350px;
+    color: #fff;
+}
+.active-link
+{
+    color : white;
+    font-weight: bold;
+    font-size: 12px;
+}
+.main-header-inner .showcase
+{
+  padding-top: 100px;
+}
+
+
+.collection .collection-item.avatar .title {
+  font-size: 12px;
+}
+
+.collection .collection-item.avatar {
+  position: relative;
+  min-height: 0px;
+}
+
+
+/*submit button in signup*/
+.btn-extend
+{
+    display: block;
+    width: 100%;
+}
+/*
+
+ .input-field input:focus + label {
+   color: red !important;
+ }
+  label underline focus color 
+ .input-field input:focus {
+   border-bottom: 1px solid red !important;
+   box-shadow: 0 1px 0 0 red !important
+ }
+*/
+
+
+
+/* styles for Home Header*/
+.home-header-with-items
+{
+    background: #1976d2;
+    background-size: cover;
+    background-position:center;
+    min-height: 50px;
+    color: #fff
+}
+/*location and language*/
+
+
+/* styles for side user profile in Homepage */
+.img-container {
+  width: 103px;
+  height: 65px;
+  margin: 0 auto;
+  padding-top: 18px;
+}
+       .user-pic
+      {
+              border: 5px solid #fff;
+          height: 93px ! important;
+          max-width: 100%;
+      }
+      .card >img
+      {
+          
+          border: 5px sloid #fff;
+          
+      }
+       .user-specs
+      {
+          padding: 23px 0px 23px 0px;
+      }
+      .chip {
+        display: inline-block;
+        height: 20px;
+        font-size: 10px;
+        font-weight: 500;
+        color: rgba(0,0,0,0.6);
+        line-height: 22px;
+        padding: 0 10px;
+        border-radius: 16px;
+        background-color: #e4e4e4;
+        margin-bottom: 5px;
+        margin-right: 5px;
+        margin-left: 10px;
+    }
+    /** styles for artist hunt **/
+   
+    /** styles for clips **/
+    .video-clips-header-container
+      {
+         display: flex;
+         justify-content: space-between; 
+      }
+      .see-all-button
+      {
+              margin-top: 13px;
+             margin-right: 13px;
+      }
+      .star-icon
+      {
+    font-size: 14px;
+    margin-left: 30px;
+      }
+      
+      #audio-clips-header
+      {
+          margin-top: -20px;
+      }
+      .user-talent-icon
+      {
+          margin-right: 0px;
+      }
+     .card .card-content p {
+    margin: 7px;
+    color: inherit;
+}
+.prev-btn {
+  position: absolute;
+  top: 35%;
+  left: 13%;
+  z-index: 999;
+}

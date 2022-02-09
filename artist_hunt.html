@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="css/main.css" />
+
+  <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"
+    integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9"
+    crossorigin="anonymous"></script>
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Talent Connect</title>
+  <style>
+     .user-talent-icon {
+      margin-right: 0px;
+    }
+
+    .container-fluid {
+      margin-right: 40px;
+      margin-left: 40px;
+    }
+
+    .collection.with-header .top-hiree-name {
+      min-height: 60px;
+    }
+
+    .cke_contents {
+      margin: 5px;
+      background-color: blue;
+    }
+  </style>
+</head>
+
+<body>
+  <!--TOP HEADER-->
+  <!--HEADER WITH LIST ITEMS---->
+  <header class="home-header-with-items">
+    <nav class="transparent z-depth-0">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="home.html" class="brand-logo">Talent Connect</a>
+          <a href="#" data-activates="mobile-nav" class="button-collapse">
+            <i class="material-icons">menu</i>
+          </a>
+          <!--right menu items-->
+          <ul class="right hide-on-med-and-down ">
+            <li><a class="active-link" href="recentfeed.html"><i class="fa fa-newspaper menu-icons"></i>Recent Feed</a></li>
+            <li><a href="home.html"><i class="fa fa-user-circle menu-icons"></i>Showcase</a></li>
+            <li><a href="clips.html"><i class="fa fa-th-large menu-icons"></i>Clips</a></li>
+            <li><a href="artist_hunt.html"><i class="fa fa-search-plus menu-icons"></i>Artist Hunts</a></li>
+            <li><a href="login.html"><i class="fa fa-cart-plus menu-icons"></i>Login</a></li>
+            <li><a href="signup.html"><i class="fa fa-users menu-icons"></i>Signup</a></li>
+          </ul>
+          <!--end of menu items-->
+          <!--SIDE NAVBAR-->
+          <ul class="side-nav" id="mobile-nav">
+            <h4 class="purple-text text-darken-4 center">Talent_Connect</h4>
+            <li>
+              <div class="divider"></div>
+            </li>
+            <li><a href="index.html"><i class="fa fa-home grey-text text-darken-4 "></i>Home</a></li>
+            <li><a href="signup.html"><i class="fa fa-users grey-text text-darken-4 "></i>Sign Up</a></li>
+
+            <li>
+              <div class="divider"></div>
+            </li>
+
+            <li><a href="#" class="btn purple">Login</a></li>
+
+          </ul>
+          <!--end of SIDE NAV BAR-->
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+  <!--homepage content Starts-->
+  <section class="section section-homepage-content">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col s12 m3">
+          <!-- Latest Comments -->
+          <ul class="collection with-header z-depth-3" style="width: 80%;">
+            <li class="collection-header white-text">
+              <i class="material-icons left">group</i>
+              <h6 class="top-hirees">Top Hirees</h6>
+            </li>
+            <li class="collection-item lighten-4 avatar top-hiree-name">
+              <img src="img/person1.jpg" alt="" class="circle z-depth-2">
+              <span class="title  ">Vinod Kumar</span>
+
+            </li>
+            <li class="collection-item  lighten-4 avatar top-hiree-name">
+              <img src="img/person2.jpg" alt="" class="circle z-depth-2">
+              <span class="title">Nayaz Basha</span>
+
+            </li>
+            <li class="collection-item  lighten-4 avatar top-hiree-name">
+              <img src="img/img4.jpg" alt="" class="circle z-depth-2">
+              <span class="title">Karthik </span>
+
+            </li>
+            <li class="collection-item  lighten-4 avatar top-hiree-name">
+              <img src="img/person1.jpg" alt="" class="circle z-depth-2">
+              <span class="title">Vinod Kumar</span>
+
+            </li>
+            <li class="collection-item  lighten-4 avatar top-hiree-name">
+              <img src="img/person2.jpg" alt="" class="circle z-depth-2">
+              <span class="title">Nayaz Basha</span>
+
+              <br><br>
+              <a href="#" class="chip pink white-text ">See All</a>
+            </li>
+
+
+          </ul>
+
+
+        </div>
+        <!--end of col s12 m3-->
+
+        <!--start of gallery-->
+
+
+        <div class="col s12 m9 white lighten-3">
+
+          <div class="row " id="hiree-clips">
+
+            <div class="col s4 m3">
+              <div class="card">
+                <div class="card-image">
+                  <img src="https://source.unsplash.com/1600x1100/?bike">
+                </div>
+
+                <div class="row lighten-3">
+                  <div class="col s12">
+                    <p class=" grey-text text-darken-4">
+                      <a href="#" class="grey-text text-darken-4">Vinod Kumar</a>
+                    </p>
+                  </div>
+
+                </div>
+                <!--end of row-->
+
+              </div>
+              <!--card-->
+            </div>
+            <!--1st card-->
+
+            <div class="col s6 m3">
+              <div class="card">
+                <div class="card-image">
+                  <img src="https://source.unsplash.com/1600x1100/?nature">
+                </div>
+
+                <div class="row lighten-3">
+                  <div class="col s12">
+                    <p class=" grey-text text-darken-4">
+                      <a href="#" class="grey-text text-darken-4">Vinod Kumar</a>
+                    </p>
+                  </div>
+
+                </div>
+                <!--card-content-->
+
+              </div>
+              <!--card-->
+            </div>
+
+            <div class="col s6 m3">
+              <div class="card">
+                <div class="card-image">
+                  <img src="https://source.unsplash.com/1600x1100/?beach">
+                </div>
+
+                <div class="row  lighten-3">
+                  <div class="col s12">
+                    <p class=" grey-text text-darken-4">
+                      <a href="#" class="grey-text text-darken-4">Vinod Kumar</a>
+                    </p>
+                  </div>
+
+                </div>
+                <!--card-content-->
+
+              </div>
+              <!--card-->
+            </div>
+            <div class="col s6 m3">
+              <div class="card">
+                <div class="card-image">
+                  <img src="https://source.unsplash.com/1600x1100/?city">
+                </div>
+
+                <div class="row  lighten-3">
+                  <div class="col s12">
+                    <p class=" grey-text text-darken-4">
+                      <a href="#" class="grey-text text-darken-4">Vinod Kumar</a>
+                    </p>
+                  </div>
+
+                </div>
+                <!--card-content-->
+
+              </div>
+              <!--card-->
+            </div>
+          </div>
+          <!--start of 2nd row of hiree clips-->
+
+          <!--content of video clips-->
+          <div class="row " id="hiree-clips1">
+
+            <div class="col s6 m3">
+              <div class="card ">
+                <div class="card-image">
+                  <img src="https://source.unsplash.com/1600x1100/?party">
+                </div>
+
+                <div class="row  lighten-3">
+                  <div class="col s12">
+                    <p class=" grey-text text-darken-4">
+                      <a href="#" class="grey-text text-darken-4">Vinod Kumar</a>
+                    </p>
+                  </div>
+
+                </div>
+                <!--end of-row-->
+
+              </div>
+              <!--card-->
+            </div>
+
+            <div class="col s6 m3">
+              <div class="card ">
+                <div class="card-image">
+                  <img src="https://source.unsplash.com/1600x1100/?laptop">
+                </div>
+
+                <div class="row lighten-3">
+                  <div class="col s12">
+                    <p class=" grey-text text-darken-4">
+                      <a href="#" class="grey-text text-darken-4">Vinod Kumar</a>
+                    </p>
+                  </div>
+
+                </div>
+                <!--card-content-->
+
+              </div>
+              <!--card-->
+            </div>
+
+            <div class="col s6 m3">
+              <div class="card ">
+                <div class="card-image">
+                  <img src="https://source.unsplash.com/1600x1100/?dance">
+                </div>
+
+                <div class="row lighten-3">
+                  <div class="col s12">
+                    <p class=" grey-text text-darken-4">
+                      <a href="#" class="grey-text text-darken-4">Vinod Kumar</a>
+                    </p>
+                  </div>
+
+                </div>
+                <!--card-content-->
+
+              </div>
+              <!--card-->
+            </div>
+            <div class="col s6 m3">
+              <div class="card ">
+                <div class="card-image">
+                  <img src="https://source.unsplash.com/1600x1100/?singing">
+                </div>
+
+                <div class="row lighten-3">
+                  <div class="col s12">
+                    <p class=" grey-text text-darken-4">
+                      <a href="#" class="grey-text text-darken-4">Vinod Kumar</a>
+                    </p>
+                  </div>
+
+                </div>
+                <!--card-content-->
+
+              </div>
+              <!--card-->
+            </div>
+          </div>
+          <!--end of 2nd row hiree clips-->
+
+          <!--start of 3rd row clips-->
+
+
+          <div class="row " id="hiree-clips3">
+
+            <div class="col s6 m3">
+              <div class="card">
+                <div class="card-image">
+                  <img src="https://source.unsplash.com/1600x1100/?party">
+                </div>
+                <div class="row lighten-3">
+                  <div class="col s12">
+                    <p class=" grey-text text-darken-4">
+                      <a href="#" class="grey-text text-darken-4">Vinod Kumar</a>
+                    </p>
+                  </div>
+
+                </div>
+                <!--card-content-->
+
+              </div>
+              <!--card-->
+            </div>
+            <!--1st card-->
+
+            <div class="col s6 m3">
+              <div class="card">
+                <div class="card-image">
+                  <img src="https://source.unsplash.com/1600x1100/?beach">
+                </div>
+
+                <div class="row lighten-3">
+                  <div class="col s12">
+                    <p class=" grey-text text-darken-4">
+                      <a href="#" class="grey-text text-darken-4">Vinod Kumar</a>
+                    </p>
+                  </div>
+
+                </div>
+                <!--card-content-->
+
+              </div>
+              <!--card-->
+            </div>
+
+            <div class="col s6 m3">
+              <div class="card">
+                <div class="card-image">
+                  <img src="https://source.unsplash.com/1600x1100/?love">
+                </div>
+
+                <div class="row lighten-3">
+                  <div class="col s12">
+                    <p class=" grey-text text-darken-4">
+                      <a href="#" class="grey-text text-darken-4">Vinod Kumar</a>
+                    </p>
+                  </div>
+
+                </div>
+                <!--card-content-->
+
+              </div>
+              <!--card-->
+            </div>
+            <div class="col s6 m3">
+              <div class="card">
+                <div class="card-image">
+                  <img src="https://source.unsplash.com/1600x1100/?beach">
+                </div>
+
+                <div class="row lighten-3">
+                  <div class="col s12">
+                    <p class=" grey-text text-darken-4">
+                      <a href="#" class="grey-text text-darken-4">Vinod Kumar</a>
+                    </p>
+                  </div>
+
+                </div>
+                <!--card-content-->
+
+              </div>
+              <!--card-->
+            </div>
+          </div>
+          <!--end of audio-->
+
+
+          <!--end of photo clips-->
+        </div>
+        <!--end of gallery-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <!--row-->
+    </div>
+  </section>
+
+
+  <!--end-->
+
+  <!---footer---->
+  <footer class="page-footer light-blue darken-1 lighten-1">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">About Us</h5>
+          <p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo quis,
+            numquam, magni asperiores totam eligendi!</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="index.html">Home</a></li>
+            <li><a class="grey-text text-lighten-3" href="solutions.html">Solutions</a></li>
+            <li><a class="grey-text text-lighten-3" href="signup.html">Sign Up</a></li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright light-blue darken-2">
+      <div class="container">
+        Talent_Connect&copy;2018
+        <a class="grey-text text-lighten-4 right" href="#!">Terms & Conditions</a>
+      </div>
+    </div>
+  </footer>
+  <!--end of footer-->
+
+  <!-- Fixed Action Button -->
+  <div class="fixed-action-btn ">
+    <a href="#post-modal" class="modal-trigger btn-floating btn-large blue">
+      <i class="material-icons">add</i>
+    </a>
+  </div>
+
+  <!-- Add Post Modal -->
+  <div id="post-modal" class="modal">
+    <div class="modal-content">
+      <h4 class="center-align">Add Post</h4>
+      <form>
+        <div class="input-field">
+
+          <input type="text" id="title">
+          <label for="title">Title</label>
+        </div>
+        <!--auto complete--chips-->
+
+        <div class="chips-input"></div>
+
+        <!--date-->
+        <div class="input-field">
+          <input type="text" class="datepicker" id="date">
+          <label for="date">Choose a Date</label>
+        </div>
+
+        <div class="input-field">
+          <input type="number" id="noofartists">
+          <label for="noofartists">Number of artists</label>
+        </div>
+        <label for="body">Description</label>
+        <div class="input-field">
+
+          <textarea name="body" id="body" class="materialize-textarea"></textarea>
+
+        </div>
+      </form>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close btn blue white-text">Submit</a>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script src="https://cdn.ckeditor.com/4.8.0/standard/ckeditor.js"></script>
+  <script>
+    $(document).ready(function () {
+      // INIT SideNav
+      $('.button-collapse').sideNav();
+
+
+
+      $('.modal').modal();
+
+      //CK Editor
+      // Init Select
+      $('select').material_select();
+
+      CKEDITOR.replace('body');
+
+
+      //talents with auto complete in post
+      // JAVASCRIPT START HERE //
+      $('.chips-input').material_chip({
+        placeholder: 'Enter a talent',
+        secondaryPlaceholder: '+talent',
+        autocompleteOptions: {
+          data: {
+            'dance': null,
+            'singing': null,
+            'self defence': null,
+            'choreography': null
+
+          }
+        }
+      });
+
+      // ADD CHIP EVENT
+      $('.chips-input').on('chip.add', function (e, chip) {
+        console.log(`You added a chip - ${chip.tag}`);
+      });
+      //Date Picker
+      $('.datepicker').pickadate({
+        selectMonths: true,
+        selectYears: 15,
+        closeOnSelect: true
+      });
+
+
+    });
+  </script>
+</body>
+
+</html>
